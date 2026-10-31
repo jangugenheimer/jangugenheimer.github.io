@@ -12,7 +12,7 @@ title: Home
 I lead the Human-Computer Interaction group at [TU Darmstadt](https://www.informatik.tu-darmstadt.de). My research lies at the intersection of **Extended Reality**, **Human-AI Interaction**, and the **safety, security and ethics** of these technologies. I study how AI-driven immersive systems can alter what people perceive, remember and decide, and I build systems and safeguards that keep this influence beneficial and under the user's control.
 
 <p class="contact">
-<a href="mailto:{{ site.links.email }}">{{ site.links.email }}</a>
+<a class="js-email" data-code="{{ site.links.email_code }}" href="#">Email</a>
 <a href="{{ site.links.scholar }}">Google Scholar</a>
 {% if site.links.linkedin != "" %}<a href="{{ site.links.linkedin }}">LinkedIn</a>{% endif %}
 {% if site.links.youtube != "" %}<a href="{{ site.links.youtube }}">YouTube</a>{% endif %}

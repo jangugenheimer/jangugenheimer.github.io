@@ -11,7 +11,8 @@ nav:
   - { title: Publications, url: /publications/ }
   - { title: CV, url: /assets/cv.pdf }
 links:
-  email: jan.gugenheimer@tu-darmstadt.de
+  # Email, reversed and ROT13-encoded so crawlers cannot read it; decoded in the browser.
+  email_code: "rq.gqngfzenq-hg@erzvruartht.anw"
   scholar: https://scholar.google.com/citations?user=DkjBHDUAAAAJ
   linkedin: ""   # paste your LinkedIn URL
   youtube: ""    # paste your YouTube channel URL

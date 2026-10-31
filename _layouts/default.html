@@ -25,5 +25,16 @@
   <footer class="site-footer">
     <div class="wrap">© {{ site.time | date: "%Y" }} Jan Gugenheimer · Human-Computer Interaction Group, TU Darmstadt</div>
   </footer>
+  <script>
+    // Email addresses are stored reversed and ROT13-encoded; decode them only in the browser.
+    document.querySelectorAll(".js-email").forEach(function (a) {
+      var addr = a.dataset.code.replace(/[a-z]/gi, function (c) {
+        var base = c <= "Z" ? 65 : 97;
+        return String.fromCharCode((c.charCodeAt(0) - base + 13) % 26 + base);
+      }).split("").reverse().join("");
+      a.href = "mailto:" + addr;
+      a.textContent = addr;
+    });
+  </script>
 </body>
 </html>
