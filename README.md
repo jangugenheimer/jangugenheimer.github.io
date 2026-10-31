@@ -5,7 +5,6 @@ A plain Jekyll site (Markdown and YAML). GitHub Pages builds it automatically, s
 ```
 index.md               home: bio, research, selected publications
 publications.md        all publications by year (generated from _data/publications.yml)
-group.md, teaching.md  plain Markdown pages
 _data/publications.yml publication list: maintained by the scripts, editable by hand
 assets/papers/         teaser images (one per paper)
 assets/videos/         optional local copies of paper videos
