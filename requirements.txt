@@ -1,0 +1,9 @@
+pyyaml
+requests
+beautifulsoup4
+pymupdf
+pillow
+scholarly
+bibtexparser==1.4.1
+# optional, only for fetch_acm_videos.py --browser:
+# playwright

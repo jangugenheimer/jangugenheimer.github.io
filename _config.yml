@@ -1,0 +1,28 @@
+title: Jan Gugenheimer
+description: Human-Computer Interaction, Extended Reality and AI — TU Darmstadt
+url: "https://www.gugenheimer.com"
+baseurl: ""
+markdown: kramdown
+kramdown:
+  input: GFM
+permalink: pretty
+nav:
+  - { title: Home, url: / }
+  - { title: Publications, url: /publications/ }
+  - { title: Group, url: /group/ }
+  - { title: Teaching, url: /teaching/ }
+  - { title: CV, url: /assets/cv.pdf }
+links:
+  email: jan.gugenheimer@tu-darmstadt.de
+  scholar: https://scholar.google.com/citations?user=DkjBHDUAAAAJ
+  linkedin: ""   # paste your LinkedIn URL
+  youtube: ""    # paste your YouTube channel URL
+exclude:
+  - scripts
+  - requirements.txt
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - CLAUDE.md
+  - "*.zip"

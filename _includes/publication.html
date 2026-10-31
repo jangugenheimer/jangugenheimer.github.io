@@ -1,0 +1,17 @@
+{% assign p = include.pub %}
+<article class="pub">
+  <div class="pub-thumb">
+    {% if p.image %}<img src="{{ p.image | relative_url }}" alt="" loading="lazy">{% else %}<span class="ph">{{ p.venue }}</span>{% endif %}
+  </div>
+  <div class="pub-text">
+    <h3 class="pub-title">{{ p.title }}</h3>
+    <p class="pub-authors">{{ p.authors | replace: "Jan Gugenheimer", "<strong>Jan Gugenheimer</strong>" }}</p>
+    <p class="pub-meta"><span class="venue">{{ p.venue }}</span>{% if p.award %}<span class="award">{{ p.award }}</span>{% endif %}</p>
+    <p class="pub-links">
+      {% if p.doi %}<a href="https://doi.org/{{ p.doi }}" target="_blank" rel="noopener">Paper</a>{% endif %}
+      {% if p.pdf %}<a href="{{ p.pdf }}" target="_blank" rel="noopener">PDF</a>{% endif %}
+      {% if p.video %}<a href="https://dl.acm.org/doi/{{ p.doi }}#supplementary-materials" target="_blank" rel="noopener">Video</a>{% endif %}
+      {% if p.project %}<a href="{{ p.project }}" target="_blank" rel="noopener">Project</a>{% endif %}
+    </p>
+  </div>
+</article>

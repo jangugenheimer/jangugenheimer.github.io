@@ -1,0 +1,490 @@
+# Generated and maintained by scripts/*.py. Hand edits are kept;
+# scripts only fill empty fields. Set `featured: true` to show a paper on the home page.
+- key: gerritse2026classifying
+  title: 'Classifying Harms in Social VR: A Systematic Literature Review and Taxonomy'
+  authors: Maarten Gerritse, Iris Folpmers, Caesar Alpha Irawan, Guo Freeman, Jan Gugenheimer, Julian Frommel
+  venue: PACM HCI 2026
+  year: 2026
+  doi: 10.1145/3799441
+- key: mei2026embodied
+  title: 'Embodied Spatial Simulation: Enabling Embodied Interaction with Human Motion Simulation in Extended Reality'
+  authors: Yanni Mei, Jonas Wombacher, Wen-Jie Tseng, Veronika Krauß, Jan Gugenheimer
+  venue: IEEE TVCG 2026
+  year: 2026
+  doi: 10.1109/tvcg.2026.3679897
+- key: mei2026meme
+  title: 'Meme, Myself and AR: Exploring Memes Sharing in Face-to-face Conversation using Augmented Reality'
+  authors: Yanni Mei, Samuel Wendt, Florian Müller, Jan Gugenheimer
+  venue: CHI 2026
+  year: 2026
+  doi: 10.1145/3772318.3791255
+  video: https://dl.acm.org/doi/suppl/10.1145/3772318.3791255/suppl_file/3772318.3791255-supplemental-material-1.mp4
+- key: mei2026shadar
+  title: 'ShadAR: LLM-driven Shader Generation to Transform Visual Perception in Augmented Reality'
+  authors: Yanni Mei, Samuel Wendt, Jonas Wombacher, Florian Müller, Jan Gugenheimer
+  venue: UIST 2026
+  year: 2026
+  doi: 10.1145/3830398.3830534
+  image: /assets/papers/mei2026shadar.jpg
+  video: https://dl.acm.org/doi/suppl/10.1145/3830398.3830534/suppl_file/finalvideo_uist.mp4
+  project: https://teamdarmstadt.github.io/ShadAR/
+  featured: true
+- key: krau2025create
+  title: '"Create a Fear of Missing Out" - ChatGPT Implements Unsolicited Deceptive Designs in Generated Websites Without Warning'
+  authors: Veronika Krauß, Mark McGill, Thomas Kosch, Yolanda Maira Thiel, Dominik Schön, Jan Gugenheimer
+  venue: CHI 2025
+  year: 2025
+  award: Best Paper Honorable Mention
+  doi: 10.1145/3706598.3713083
+  image: /assets/papers/krau2025create.jpg
+  video: https://dl.acm.org/doi/suppl/10.1145/3706598.3713083/suppl_file/pn3010-talk-video.mp4
+  featured: true
+- key: pluisch2025multi
+  title: A Multi-Sensor Approach for Cognitive Load Assessment in Mobile Augmented Reality
+  authors: Martin Pluisch, Jan Gugenheimer, Youngjun Cho, Simon Julier, Ernst Kruijff
+  venue: ISMAR 2025
+  year: 2025
+  doi: 10.1109/ismar67309.2025.00033
+- key: willich2025qualitative
+  title: A Qualitative Investigation of User Transitions and Frictions in Cross-Reality Applications
+  authors: Julius von Willich, Frank Nelles, Wen-Jie Tseng, Jan Gugenheimer, Sebastian Günther, Max Mühlhäuser
+  venue: CHI 2025
+  year: 2025
+  doi: 10.1145/3706598.3713921
+  image: /assets/papers/willich2025qualitative.jpg
+  video: https://dl.acm.org/doi/suppl/10.1145/3706598.3713921/suppl_file/pn4691-talk-video.mp4
+- key: pluisch2025context
+  title: Context-Aware Application Recommendations in Augmented Reality
+  authors: Martin Pluisch, Jan Gugenheimer, Ernst Kruijff
+  venue: SUI 2025
+  year: 2025
+  doi: 10.1145/3694907.3765932
+- key: wombacher2025switchar
+  title: 'SwitchAR: Perceptual Manipulations in Augmented Reality'
+  authors: Jonas Wombacher, Zhipeng Li, Jan Gugenheimer
+  venue: UIST 2025
+  year: 2025
+  doi: 10.1145/3746059.3747595
+  image: /assets/papers/wombacher2025switchar.jpg
+  video: https://dl.acm.org/doi/suppl/10.1145/3746059.3747595/suppl_file/SwitchAR%20UIST%202025%20Video%20Figure.mp4
+  featured: true
+- key: hagan2024viewpoint
+  title: A Viewpoint on the Societal Impact of Everyday Augmented Reality, and the Need for Perceptual Human Rights
+  authors: Joseph O'Hagan, Jan Gugenheimer, Florian Mathis, Jolie Bonner, Richard Jones, Mark McGill
+  venue: IEEE Security and Privacy
+  year: 2024
+  doi: 10.1109/msec.2023.3333988
+  image: /assets/papers/hagan2024viewpoint.jpg
+- key: stemasov2024dungeonmaker
+  title: 'DungeonMaker: Embedding Tangible Creation and Destruction in Hybrid Board Games through Personal Fabrication Technology'
+  authors: Evgeny Stemasov, Tobias Wagner, Ali Askari, Jessica Janek, Omid Rajabi, Anja Schikorr, Julian Frommel, Jan Gugenheimer, Enrico Rukzio
+  venue: CHI 2024
+  year: 2024
+  doi: 10.1145/3613904.3642243
+  image: /assets/papers/stemasov2024dungeonmaker.jpg
+  video: https://dl.acm.org/doi/suppl/10.1145/3613904.3642243/suppl_file/pn6356-supplemental-material-2.mp4
+- key: ruocco2024from
+  title: 'From Redirected Navigation to Forced Attention: Uncovering Manipulative and Deceptive Designs in Augmented Reality through Retail Shopping'
+  authors: Martina Ruocco, Pejman Saeghe, Frederic Kerber, Jan Gugenheimer, Mark McGill, Mohamed Khamis
+  venue: ISMAR 2024
+  year: 2024
+  doi: 10.1109/ismar62088.2024.00087
+  image: /assets/papers/ruocco2024from.jpg
+- key: li2024investigating
+  title: Investigating Creation Perspectives and Icon Placement Preferences for On-Body Menus in Virtual Reality
+  authors: Xiang Li, Wei He, Shan Jin, Jan Gugenheimer, Pan Hui, Hai-Ning Liang, Per Ola Kristensson
+  venue: PACM HCI 2024
+  year: 2024
+  doi: 10.1145/3698136
+  image: /assets/papers/li2024investigating.jpg
+- key: rouhani2024towards
+  title: 'Towards benchmarking VR sickness: A novel methodological framework for assessing contributing factors and mitigation strategies through rapid VR sickness induction and recovery'
+  authors: Rose Rouhani, Narmada Umatheva, Jannik Brockerhoff, Behrang Keshavarz, Ernst Kruijff, Jan Gugenheimer, Bernhard E Riecke
+  venue: Displays 2024
+  year: 2024
+  doi: 10.1016/j.displa.2024.102807
+  image: /assets/papers/rouhani2024towards.jpg
+- key: tseng2024understanding
+  title: Understanding Interaction and Breakouts of Safety Boundaries in Virtual Reality Through Mixed-Method Studies
+  authors: Wen-Jie Tseng, Petros Dimitrios Kontrazis, Eric Lecolinet, Samuel Huron, Jan Gugenheimer
+  venue: IEEE VR 2024
+  year: 2024
+  doi: 10.1109/vr58804.2024.00069
+  image: /assets/papers/tseng2024understanding.jpg
+- key: bonnail2024real
+  title: Was it Real or Virtual? Confirming the Occurrence and Explaining Causes of Memory Source Confusion between Reality and Virtual Reality
+  authors: Elise Bonnail, Julian Frommel, Eric Lecolinet, Samuel Huron, Jan Gugenheimer
+  venue: CHI 2024
+  year: 2024
+  doi: 10.1145/3613904.3641992
+  image: /assets/papers/bonnail2024real.jpg
+  video: https://dl.acm.org/doi/suppl/10.1145/3613904.3641992/suppl_file/pn4788-supplemental-material-1.mp4
+- key: krauss2024what
+  title: What makes XR dark? Examining emerging dark patterns in augmented and virtual reality through expert co-design
+  authors: Veronika Krauss, Pejman Saeghe, Alexander Boden, Mohamed Khamis, Mark McGill, Jan Gugenheimer, Michael Nebeling
+  venue: ACM TOCHI 2024
+  year: 2024
+  doi: 10.1145/3660340
+  image: /assets/papers/krauss2024what.jpg
+- key: stemasov2024param
+  title: 'pARam: Leveraging Parametric Design in Extended Reality to Support the Personalization of Artifacts for Personal Fabrication'
+  authors: Evgeny Stemasov, Simon Demharter, Max Rädler, Jan Gugenheimer, Enrico Rukzio
+  venue: CHI 2024
+  year: 2024
+  doi: 10.1145/3613904.3642083
+  image: /assets/papers/stemasov2024param.jpg
+  video: https://dl.acm.org/doi/suppl/10.1145/3613904.3642083/suppl_file/pn3540-supplemental-material-1.mp4
+- key: hagan2023augmenting
+  title: 'Augmenting people, places & media: The societal harms posed by everyday augmented reality, and the case for perceptual human rights'
+  authors: Joseph O'Hagan, Jan Gugenheimer, Jolie Bonner, Florian Mathis, Mark McGill
+  venue: MUM 2023
+  year: 2023
+  doi: 10.1145/3626705.3627782
+  image: /assets/papers/hagan2023augmenting.jpg
+- key: stemasov2023brickstart
+  title: 'BrickStARt: Enabling In-situ Design and Tangible Exploration for Personal Fabrication using Mixed Reality'
+  authors: Evgeny Stemasov, Jessica Hohn, Maurice Cordts, Anja Schikorr, Enrico Rukzio, Jan Gugenheimer
+  venue: PACM HCI 2023
+  year: 2023
+  doi: 10.1145/3626465
+  image: /assets/papers/stemasov2023brickstart.jpg
+  video: https://dl.acm.org/doi/suppl/10.1145/3626465/suppl_file/iss23main-p1728-p-video.mp4
+- key: rixen2023exploring
+  title: Exploring the Effects of Head-Mounted Augmented Reality on Helping Behaviour
+  authors: Jan Ole Rixen, Jan Henry Belz, Luca-Maxim Meinhardt, Jan Gugenheimer, Enrico Rukzio
+  venue: MUM 2023
+  year: 2023
+  doi: 10.1145/3626705.3627969
+  image: /assets/papers/rixen2023exploring.jpg
+- key: tseng2023fingermapper
+  title: 'FingerMapper: Mapping Finger Motions onto Virtual Arms to Enable Safe Virtual Reality Interaction in Confined Spaces'
+  authors: Wen-Jie Tseng, Samuel Huron, Eric Lecolinet, Jan Gugenheimer
+  venue: CHI 2023
+  year: 2023
+  doi: 10.1145/3544548.3580736
+  image: /assets/papers/tseng2023fingermapper.jpg
+  video: https://dl.acm.org/doi/suppl/10.1145/3544548.3580736/suppl_file/3544548.3580736-video-figure.mp4
+- key: bonnail2023memory
+  title: Memory Manipulations in Extended Reality
+  authors: Elise Bonnail, Wen-Jie Tseng, Mark McGill, Eric Lecolinet, Samuel Huron, Jan Gugenheimer
+  venue: CHI 2023
+  year: 2023
+  award: Best Paper Honorable Mention
+  doi: 10.1145/3544548.3580988
+  image: /assets/papers/bonnail2023memory.jpg
+  video: https://dl.acm.org/doi/suppl/10.1145/3544548.3580988/suppl_file/3544548.3580988-talk-video.mp4
+- key: hagan2023privacy
+  title: 'Privacy-Enhancing Technology and Everyday Augmented Reality: Understanding Bystanders'' Varying Needs for Awareness and Consent'
+  authors: Joseph O'Hagan, Pejman Saeghe, Jan Gugenheimer, Daniel Medeiros, Karola Marky, Mohamed Khamis, Mark McGill
+  venue: IMWUT 2023
+  year: 2023
+  doi: 10.1145/3569501
+  image: /assets/papers/hagan2023privacy.jpg
+- key: rixen2023loop
+  title: 'The Loop and Reasons to Break It: Investigating Infinite Scrolling Behaviour in Social Media Applications and Reasons to Stop'
+  authors: Jan Ole Rixen, Luca-Maxim Meinhardt, Michael Glöckler, Marius-Lukas Ziegenbein, Anna Schlothauer, Mark Colley, Enrico Rukzio, Jan Gugenheimer
+  venue: PACM HCI 2023
+  year: 2023
+  award: Best Paper Award
+  doi: 10.1145/3604275
+  image: /assets/papers/rixen2023loop.jpg
+- key: rixen2022consent
+  title: 'Consent in the Age of AR: Investigating The Comfort With Displaying Personal Information in Augmented Reality'
+  authors: Jan Ole Rixen, Mark Colley, Ali Askari, Jan Gugenheimer, Enrico Rukzio
+  venue: CHI 2022
+  year: 2022
+  doi: 10.1145/3491102.3502140
+  image: /assets/papers/rixen2022consent.jpg
+- key: stemasov2022ephemeral
+  title: 'Ephemeral Fabrication: Exploring a Ubiquitous Fabrication Scenario of Low-Effort, In-Situ Creation of Short-Lived Physical Artifacts'
+  authors: Evgeny Stemasov, Alexander Botner, Enrico Rukzio, Jan Gugenheimer
+  venue: TEI 2022
+  year: 2022
+  doi: 10.1145/3490149.3501331
+  image: /assets/papers/stemasov2022ephemeral.jpg
+  video: https://dl.acm.org/doi/suppl/10.1145/3490149.3501331/suppl_file/video.mp4
+- key: colley2022requirements
+  title: Requirements for the Interaction With Highly Automated Construction Site Delivery Trucks
+  authors: Mark Colley, Stefanos Mytilineos, Marcel Walch, Jan Gugenheimer, Enrico Rukzio
+  venue: Frontiers in Human Dynamics
+  year: 2022
+  doi: 10.3389/fhumd.2022.794890
+  image: /assets/papers/colley2022requirements.jpg
+- key: stemasov2022shapefindar
+  title: 'ShapeFindAR: Exploring In-Situ Spatial Search for Physical Artifact Retrieval Using Mixed Reality'
+  authors: Evgeny Stemasov, Tobias Wagner, Jan Gugenheimer, Enrico Rukzio
+  venue: CHI 2022
+  year: 2022
+  doi: 10.1145/3491102.3517682
+  image: /assets/papers/stemasov2022shapefindar.jpg
+  video: https://dl.acm.org/doi/suppl/10.1145/3491102.3517682/suppl_file/3491102.3517682-video-figure.mp4
+- key: tseng2022dark
+  title: The Dark Side of Perceptual Manipulations in Virtual Reality
+  authors: Wen-Jie Tseng, Elise Bonnail, Mark McGill, Mohamed Khamis, Eric Lecolinet, Samuel Huron, Jan Gugenheimer
+  venue: CHI 2022
+  year: 2022
+  doi: 10.1145/3491102.3517728
+  image: /assets/papers/tseng2022dark.jpg
+  video: https://dl.acm.org/doi/suppl/10.1145/3491102.3517728/suppl_file/3491102.3517728-talk-video.mp4
+  featured: true
+- key: cheng2022towards
+  title: Towards Understanding Diminished Reality
+  authors: Yi Fei Cheng, Hang Yin, Yukang Yan, Jan Gugenheimer, David Lindlbauer
+  venue: CHI 2022
+  year: 2022
+  doi: 10.1145/3491102.3517452
+  image: /assets/papers/cheng2022towards.jpg
+  video: https://dl.acm.org/doi/suppl/10.1145/3491102.3517452/suppl_file/3491102.3517452-talk-video.mp4
+- key: hirzle2022understanding
+  title: Understanding, Addressing, and Analysing Digital Eye Strain in Virtual Reality Head-Mounted Displays
+  authors: Teresa Hirzle, Fabian Fischbach, Julian Karlbauer, Pascal Jansen, Jan Gugenheimer, Enrico Rukzio, Andreas Bulling
+  venue: ACM TOCHI 2022
+  year: 2022
+  doi: 10.1145/3492802
+  image: /assets/papers/hirzle2022understanding.jpg
+- key: colley2022user
+  title: User gesticulation inside an automated vehicle with external communication can cause confusion in pedestrians and a lower willingness to cross
+  authors: Mark Colley, Bastian Wankmüller, Tim Mend, Thomas Väth, Enrico Rukzio, Jan Gugenheimer
+  venue: Transportation Research Part F 2022
+  year: 2022
+  doi: 10.1016/j.trf.2022.03.011
+  image: /assets/papers/colley2022user.jpg
+- key: gruenefeld2022vrception
+  title: 'VRception: Rapid Prototyping of Cross-Reality Systems in Virtual Reality'
+  authors: Uwe Gruenefeld, Jonas Auda, Florian Mathis, Stefan Schneegass, Mohamed Khamis, Jan Gugenheimer, Sven Mayer
+  venue: CHI 2022
+  year: 2022
+  doi: 10.1145/3491102.3501821
+  image: /assets/papers/gruenefeld2022vrception.jpg
+  video: https://dl.acm.org/doi/suppl/10.1145/3491102.3501821/suppl_file/3491102.3501821-video-figure.mp4
+- key: hirzle2021critical
+  title: A Critical Assessment of the Use of SSQ as a Measure of General Discomfort in VR Head-Mounted Displays
+  authors: Teresa Hirzle, Maurice Cordts, Enrico Rukzio, Jan Gugenheimer, Andreas Bulling
+  venue: CHI 2021
+  year: 2021
+  doi: 10.1145/3411764.3445361
+  image: /assets/papers/hirzle2021critical.jpg
+- key: rixen2021exploring
+  title: Exploring augmented visual alterations in interpersonal communication
+  authors: Jan Ole Rixen, Teresa Hirzle, Mark Colley, Yannick Etzel, Enrico Rukzio, Jan Gugenheimer
+  venue: CHI 2021
+  year: 2021
+  doi: 10.1145/3411764.3445597
+  image: /assets/papers/rixen2021exploring.jpg
+- key: muller2021spatialproto
+  title: 'SpatialProto: Using Real-World Captures for Rapid Prototyping of Mixed Reality Experiences'
+  authors: Leon Müller, Ken Pfeuffer, Jan Gugenheimer, Sarah Prange, Florian Alt, Bastian Pfleging
+  venue: CHI 2021
+  year: 2021
+  doi: 10.1145/3411764.3445560
+  image: /assets/papers/muller2021spatialproto.jpg
+  video: https://dl.acm.org/doi/suppl/10.1145/3411764.3445560/suppl_file/3411764.3445560_videofigure.mp4
+- key: stemasov2021road
+  title: 'The Road to Ubiquitous Personal Fabrication: Modeling-Free Instead of Increasingly Simple'
+  authors: Evgeny Stemasov, Enrico Rukzio, Jan Gugenheimer
+  venue: IEEE Pervasive Computing
+  year: 2021
+  doi: 10.1109/mprv.2020.3029650
+  image: /assets/papers/stemasov2021road.jpg
+- key: colley2020evaluating
+  title: Evaluating Highly Automated Trucks as Signaling Lights
+  authors: Mark Colley, Stefanos Can Mytilineos, Marcel Walch, Jan Gugenheimer, Enrico Rukzio
+  venue: AutomotiveUI 2020
+  year: 2020
+  doi: 10.1145/3409120.3410647
+  image: /assets/papers/colley2020evaluating.jpg
+- key: stemasov2020match
+  title: 'Mix&Match: Towards Omitting Modelling through In-Situ Alteration and Remixing of Model Repository Artifacts in Mixed Reality'
+  authors: Evgeny Stemasov, Tobias Wagner, Jan Gugenheimer, Enrico Rukzio
+  venue: CHI 2020
+  year: 2020
+  doi: 10.1145/3313831.3376839
+  image: /assets/papers/stemasov2020match.jpg
+  video: https://dl.acm.org/doi/suppl/10.1145/3313831.3376839/suppl_file/paper710vf.mp4
+- key: jansen2020share
+  title: 'ShARe: Enabling Co-Located Asymmetric Multi-User Interaction for Augmented Reality Head-Mounted Displays'
+  authors: Pascal Jansen, Fabian Fischbach, Jan Gugenheimer, Evgeny Stemasov, Julian Frommel, Enrico Rukzio
+  venue: UIST 2020
+  year: 2020
+  doi: 10.1145/3379337.3415843
+  image: /assets/papers/jansen2020share.jpg
+  video: https://dl.acm.org/doi/suppl/10.1145/3379337.3415843/suppl_file/ufp4611vf.mp4
+- key: colley2020towards
+  title: Towards Inclusive External Communication of Autonomous Vehicles for Pedestrians with Vision Impairments
+  authors: Mark Colley, Marcel Walch, Jan Gugenheimer, Ali Askari, Enrico Rukzio
+  venue: CHI 2020
+  year: 2020
+  award: Best Paper Honorable Mention
+  doi: 10.1145/3313831.3376472
+  image: /assets/papers/colley2020towards.jpg
+  video: https://dl.acm.org/doi/suppl/10.1145/3313831.3376472/suppl_file/pn5334vf.mp4
+- key: wolf2020understanding
+  title: 'Understanding the Heisenberg Effect of Spatial Interaction: A Selection Induced Error for Spatially Tracked Input Devices'
+  authors: Dennis Wolf, Jan Gugenheimer, Marco Combosch, Enrico Rukzio
+  venue: CHI 2020
+  year: 2020
+  doi: 10.1145/3313831.3376876
+  image: /assets/papers/wolf2020understanding.jpg
+  video: https://dl.acm.org/doi/suppl/10.1145/3313831.3376876/suppl_file/a747-wolf-presentation.mp4
+- key: drey2020vrsketchin
+  title: 'VRSketchIn: Exploring the Design Space of Pen and Tablet Interaction for 3D Sketching in Virtual Reality'
+  authors: Tobias Drey, Jan Gugenheimer, Julian Karlbauer, Maximilian Milo, Enrico Rukzio
+  venue: CHI 2020
+  year: 2020
+  doi: 10.1145/3313831.3376628
+  image: /assets/papers/drey2020vrsketchin.jpg
+  video: https://dl.acm.org/doi/suppl/10.1145/3313831.3376628/suppl_file/pn7038vf.mp4
+- key: haas2020voicemessage
+  title: 'VoiceMessage++: Augmented Voice Recordings for Mobile Instant Messaging'
+  authors: Gabriel Haas, Jan Gugenheimer, Enrico Rukzio
+  venue: MobileHCI 2020
+  year: 2020
+  doi: 10.1145/3379503.3403560
+  image: /assets/papers/haas2020voicemessage.jpg
+  video: https://dl.acm.org/doi/suppl/10.1145/3379503.3403560/suppl_file/a30-haas-supplement.mp4
+- key: haas2020they
+  title: '“They Like to Hear My Voice”: Exploring Usage Behavior in Speech-Based Mobile Instant Messaging'
+  authors: Gabriel Haas, Jan Gugenheimer, Jan Ole Rixen, Florian Schaub, Enrico Rukzio
+  venue: MobileHCI 2020
+  year: 2020
+  doi: 10.1145/3379503.3403561
+  image: /assets/papers/haas2020they.jpg
+- key: hirzle2019design
+  title: A Design Space for Gaze Interaction on Head-Mounted Displays
+  authors: Teresa Hirzle, Jan Gugenheimer, Florian Geiselhart, Andreas Bulling, Enrico Rukzio
+  venue: CHI 2019
+  year: 2019
+  doi: 10.1145/3290605.3300855
+  image: /assets/papers/hirzle2019design.jpg
+  video: https://dl.acm.org/doi/suppl/10.1145/3290605.3300855/suppl_file/pn7710.mp4
+- key: rietzler2018breaking
+  title: 'Breaking the Tracking: Enabling Weight Perception using Perceivable Tracking Offsets'
+  authors: Michael Rietzler, Florian Geiselhart, Jan Gugenheimer, Enrico Rukzio
+  venue: CHI 2018
+  year: 2018
+  doi: 10.1145/3173574.3173702
+  image: /assets/papers/rietzler2018breaking.jpg
+  video: https://dl.acm.org/doi/suppl/10.1145/3173574.3173702/suppl_file/pn1860-file3.mp4
+- key: gugenheimer2018facedisplay
+  title: 'FaceDisplay: Towards Asymmetric Multi-User Interaction for Nomadic Virtual Reality'
+  authors: Jan Gugenheimer, Evgeny Stemasov, Harpreet Sareen, Enrico Rukzio
+  venue: CHI 2018
+  year: 2018
+  doi: 10.1145/3173574.3173628
+  image: /assets/papers/gugenheimer2018facedisplay.jpg
+  video: https://dl.acm.org/doi/suppl/10.1145/3173574.3173628/suppl_file/pn1347-file3.mp4
+- key: rietzler2018rethinking
+  title: 'Rethinking Redirected Walking: On the Use of Curvature Gains Beyond Perceptual Limitations and Revisiting Bending Gains'
+  authors: Michael Rietzler, Jan Gugenheimer, Teresa Hirzle, Martin Deubzer, Eike Langbehn, Enrico Rukzio
+  venue: ISMAR 2018
+  year: 2018
+  doi: 10.1109/ismar.2018.00041
+  image: /assets/papers/rietzler2018rethinking.jpg
+- key: rietzler2018vrspinning
+  title: 'VRSpinning: Exploring the Design Space of a 1D Rotation Platform to Increase the Perception of Self-Motion in VR'
+  authors: Michael Rietzler, Teresa Hirzle, Jan Gugenheimer, Julian Frommel, Thomas Dreja, Enrico Rukzio
+  venue: DIS 2018
+  year: 2018
+  doi: 10.1145/3196709.3196755
+  image: /assets/papers/rietzler2018vrspinning.jpg
+  video: https://dl.acm.org/doi/suppl/10.1145/3196709.3196755/suppl_file/disfp373.mp4
+- key: hock2017carvr
+  title: 'CarVR: Enabling In-Car Virtual Reality Entertainment'
+  authors: Philipp Hock, Sebastian Benedikter, Jan Gugenheimer, Enrico Rukzio
+  venue: CHI 2017
+  year: 2017
+  doi: 10.1145/3025453.3025665
+  image: /assets/papers/hock2017carvr.jpg
+  video: https://dl.acm.org/doi/suppl/10.1145/3025453.3025665/suppl_file/pn2106-file3.mp4
+- key: gugenheimer2017interaction
+  title: Interaction with Adaptive and Ubiquitous User Interfaces
+  authors: Jan Gugenheimer, Christian Winkler, Dennis Wolf, Enrico Rukzio
+  venue: Companion Technology (book chapter) 2017
+  year: 2017
+  doi: 10.1007/978-3-319-43665-4_11
+- key: gugenheimer2017sharevr
+  title: 'ShareVR: Enabling Co-Located Experiences for Virtual Reality between HMD and Non-HMD Users'
+  authors: Jan Gugenheimer, Evgeny Stemasov, Julian Frommel, Enrico Rukzio
+  venue: CHI 2017
+  year: 2017
+  award: Best Paper Award
+  doi: 10.1145/3025453.3025683
+  image: /assets/papers/gugenheimer2017sharevr.jpg
+  video: https://dl.acm.org/doi/suppl/10.1145/3025453.3025683/suppl_file/pn2164-file3.mp4
+  featured: true
+- key: gugenheimer2017impact
+  title: The Impact of Assistive Technology on Communication Quality Between Deaf and Hearing Individuals
+  authors: Jan Gugenheimer, Katrin Plaumann, Florian Schaub, Patrizia Di Campli San Vito, Saskia Duck, Melanie Rabus, Enrico Rukzio
+  venue: CSCW 2017
+  year: 2017
+  doi: 10.1145/2998181.2998203
+  image: /assets/papers/gugenheimer2017impact.jpg
+- key: gugenheimer2016facetouch
+  title: 'Facetouch: Enabling touch interaction in display fixed uis for mobile virtual reality'
+  authors: Jan Gugenheimer, David Dobbelstein, Christian Winkler, Gabriel Haas, Enrico Rukzio
+  venue: UIST 2016
+  year: 2016
+  doi: 10.1145/2984511.2984576
+  image: /assets/papers/gugenheimer2016facetouch.jpg
+  video: https://dl.acm.org/doi/suppl/10.1145/2984511.2984576/suppl_file/uist4470-file3.mp4
+- key: gugenheimer2016gyrovr
+  title: 'GyroVR: Simulating Inertia in Virtual Reality using Head Worn Flywheels'
+  authors: Jan Gugenheimer, Dennis Wolf, Eythor R Eiriksson, Pattie Maes, Enrico Rukzio
+  venue: UIST 2016
+  year: 2016
+  doi: 10.1145/2984511.2984535
+  image: /assets/papers/gugenheimer2016gyrovr.jpg
+  video: https://dl.acm.org/doi/suppl/10.1145/2984511.2984535/suppl_file/uist2457-file3.mp4
+- key: gugenheimer2016companion
+  title: 'How companion-technology can enhance a multi-screen television experience: a test bed for adaptive multimodal interaction in domestic environments'
+  authors: Jan Gugenheimer, Frank Honold, Dennis Wolf, Felix Schüssel, Julian Seifert, Michael Weber, Enrico Rukzio
+  venue: KI – Künstliche Intelligenz 2016
+  year: 2016
+  doi: 10.1007/s13218-015-0395-7
+  image: /assets/papers/gugenheimer2016companion.jpg
+- key: gugenheimer2016swivrchair
+  title: 'Swivrchair: A motorized swivel chair to nudge users'' orientation for 360 degree storytelling in virtual reality'
+  authors: Jan Gugenheimer, Dennis Wolf, Gabriel Haas, Sebastian Krebs, Enrico Rukzio
+  venue: CHI 2016
+  year: 2016
+  doi: 10.1145/2858036.2858040
+  image: /assets/papers/gugenheimer2016swivrchair.jpg
+  video: https://dl.acm.org/doi/suppl/10.1145/2858036.2858040/suppl_file/pn0108-file3.mp4
+- key: gugenheimer2015colorsnakes
+  title: 'Colorsnakes: Using colored decoys to secure authentication in sensitive contexts'
+  authors: Jan Gugenheimer, Alexander De Luca, Hayato Hess, Stefan Karg, Dennis Wolf, Enrico Rukzio
+  venue: MobileHCI 2015
+  year: 2015
+  doi: 10.1145/2785830.2785834
+  image: /assets/papers/gugenheimer2015colorsnakes.jpg
+- key: winkler2015glass
+  title: 'Glass unlock: Enhancing security of smartphone unlocking through leveraging a private near-eye display'
+  authors: Christian Winkler, Jan Gugenheimer, Alexander De Luca, Gabriel Haas, Philipp Speidel, David Dobbelstein, Enrico Rukzio
+  venue: CHI 2015
+  year: 2015
+  doi: 10.1145/2702123.2702316
+  image: /assets/papers/winkler2015glass.jpg
+  video: https://dl.acm.org/doi/suppl/10.1145/2702123.2702316/suppl_file/pn1031-file3.mp4
+- key: gugenheimer2015ubibeam
+  title: 'Ubibeam: exploring the interaction space for home deployed projector-camera systems'
+  authors: Jan Gugenheimer, Pascal Knierim, Christian Winkler, Julian Seifert, Enrico Rukzio
+  venue: INTERACT 2015
+  year: 2015
+  doi: 10.1007/978-3-319-22698-9_23
+  image: /assets/papers/gugenheimer2015ubibeam.jpg
+- key: rogers2014piano
+  title: 'P.I.A.N.O.: Faster Piano Learning with Interactive Projection'
+  authors: Katja Rogers, Amrei Röhlig, Matthias Weing, Jan Gugenheimer, Bastian Könings, Melina Klepsch, Florian Schaub, Enrico Rukzio, Tina Seufert, Michael Weber
+  venue: ITS 2014
+  year: 2014
+  award: Best Student Paper Award
+  doi: 10.1145/2669485.2669514
+  image: /assets/papers/rogers2014piano.jpg
+  video: https://dl.acm.org/doi/suppl/10.1145/2669485.2669514/suppl_file/its0202.mp4
+- key: gugenheimer2014user
+  title: User Authentication for Rotary Knob Controlled In-car Applications
+  authors: Jan Gugenheimer, Florian Schaub, Gregory M Neiswander, Eromi Guneratne, Michael Weber
+  venue: AutoUI 2014
+  year: 2014
+  doi: 10.1145/2667317.2667338
+  image: /assets/papers/gugenheimer2014user.jpg
