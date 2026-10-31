@@ -9,7 +9,6 @@ permalink: pretty
 nav:
   - { title: Home, url: / }
   - { title: Publications, url: /publications/ }
-  - { title: CV, url: /assets/cv.pdf }
 links:
   # Email, reversed and ROT13-encoded so crawlers cannot read it; decoded in the browser.
   email_code: "rq.gqngfzenq-hg@erzvruartht.anw"

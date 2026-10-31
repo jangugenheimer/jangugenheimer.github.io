@@ -8,7 +8,6 @@ publications.md        all publications by year (generated from _data/publicatio
 _data/publications.yml publication list: maintained by the scripts, editable by hand
 assets/papers/         teaser images (one per paper)
 assets/videos/         optional local copies of paper videos
-assets/cv.pdf          CV linked in the menu
 scripts/               publication tools (see below)
 CNAME                  www.gugenheimer.com
 ```

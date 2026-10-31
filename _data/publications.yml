@@ -18,6 +18,7 @@
   venue: CHI 2026
   year: 2026
   doi: 10.1145/3772318.3791255
+  image: /assets/papers/mei2026meme.jpg
   video: https://dl.acm.org/doi/suppl/10.1145/3772318.3791255/suppl_file/3772318.3791255-supplemental-material-1.mp4
 - key: mei2026shadar
   title: 'ShadAR: LLM-driven Shader Generation to Transform Visual Perception in Augmented Reality'

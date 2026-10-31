@@ -16,7 +16,6 @@ I lead the Human-Computer Interaction group at [TU Darmstadt](https://www.inform
 <a href="{{ site.links.scholar }}">Google Scholar</a>
 {% if site.links.linkedin != "" %}<a href="{{ site.links.linkedin }}">LinkedIn</a>{% endif %}
 {% if site.links.youtube != "" %}<a href="{{ site.links.youtube }}">YouTube</a>{% endif %}
-<a href="/assets/cv.pdf">CV (PDF)</a>
 </p>
 </div>
 </section>
