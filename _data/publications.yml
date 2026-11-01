@@ -6,12 +6,16 @@
   venue: PACM HCI 2026
   year: 2026
   doi: 10.1145/3799441
+  scholar_url: https://dl.acm.org/doi/abs/10.1145/3799441
+  citations: 1
 - key: mei2026embodied
   title: 'Embodied Spatial Simulation: Enabling Embodied Interaction with Human Motion Simulation in Extended Reality'
   authors: Yanni Mei, Jonas Wombacher, Wen-Jie Tseng, Veronika Krauß, Jan Gugenheimer
   venue: IEEE TVCG 2026
   year: 2026
   doi: 10.1109/tvcg.2026.3679897
+  scholar_url: https://ieeexplore.ieee.org/abstract/document/11471288/
+  citations: 1
 - key: mei2026meme
   title: 'Meme, Myself and AR: Exploring Memes Sharing in Face-to-face Conversation using Augmented Reality'
   authors: Yanni Mei, Samuel Wendt, Florian Müller, Jan Gugenheimer
@@ -20,6 +24,8 @@
   doi: 10.1145/3772318.3791255
   image: /assets/papers/mei2026meme.jpg
   video: https://dl.acm.org/doi/suppl/10.1145/3772318.3791255/suppl_file/3772318.3791255-supplemental-material-1.mp4
+  scholar_url: https://dl.acm.org/doi/abs/10.1145/3772318.3791255
+  citations: 1
 - key: mei2026shadar
   title: 'ShadAR: LLM-driven Shader Generation to Transform Visual Perception in Augmented Reality'
   authors: Yanni Mei, Samuel Wendt, Jonas Wombacher, Florian Müller, Jan Gugenheimer
@@ -30,6 +36,12 @@
   video: https://dl.acm.org/doi/suppl/10.1145/3830398.3830534/suppl_file/finalvideo_uist.mp4
   project: https://teamdarmstadt.github.io/ShadAR/
   featured: true
+- key: mandryk2026towards
+  title: Towards Proactive Approaches to Combating Toxicity, Harassment, and Abuse
+  authors: Regan L Mandryk, Guo Freeman, Julian Frommel, Jan Gugenheimer
+  venue: CHI 2026
+  year: 2026
+  scholar_url: https://research-portal.uu.nl/ws/files/290194682/3772363.3778727.pdf
 - key: krau2025create
   title: '"Create a Fear of Missing Out" - ChatGPT Implements Unsolicited Deceptive Designs in Generated Websites Without Warning'
   authors: Veronika Krauß, Mark McGill, Thomas Kosch, Yolanda Maira Thiel, Dominik Schön, Jan Gugenheimer
@@ -40,12 +52,16 @@
   image: /assets/papers/krau2025create.jpg
   video: https://dl.acm.org/doi/suppl/10.1145/3706598.3713083/suppl_file/pn3010-talk-video.mp4
   featured: true
+  scholar_url: https://dl.acm.org/doi/abs/10.1145/3706598.3713083
+  citations: 24
 - key: pluisch2025multi
   title: A Multi-Sensor Approach for Cognitive Load Assessment in Mobile Augmented Reality
   authors: Martin Pluisch, Jan Gugenheimer, Youngjun Cho, Simon Julier, Ernst Kruijff
   venue: ISMAR 2025
   year: 2025
   doi: 10.1109/ismar67309.2025.00033
+  scholar_url: https://ieeexplore.ieee.org/abstract/document/11220404/
+  citations: 4
 - key: willich2025qualitative
   title: A Qualitative Investigation of User Transitions and Frictions in Cross-Reality Applications
   authors: Julius von Willich, Frank Nelles, Wen-Jie Tseng, Jan Gugenheimer, Sebastian Günther, Max Mühlhäuser
@@ -54,12 +70,16 @@
   doi: 10.1145/3706598.3713921
   image: /assets/papers/willich2025qualitative.jpg
   video: https://dl.acm.org/doi/suppl/10.1145/3706598.3713921/suppl_file/pn4691-talk-video.mp4
+  scholar_url: https://dl.acm.org/doi/abs/10.1145/3706598.3713921
+  citations: 10
 - key: pluisch2025context
   title: Context-Aware Application Recommendations in Augmented Reality
   authors: Martin Pluisch, Jan Gugenheimer, Ernst Kruijff
   venue: SUI 2025
   year: 2025
   doi: 10.1145/3694907.3765932
+  scholar_url: https://dl.acm.org/doi/abs/10.1145/3694907.3765932
+  citations: 2
 - key: wombacher2025switchar
   title: 'SwitchAR: Perceptual Manipulations in Augmented Reality'
   authors: Jonas Wombacher, Zhipeng Li, Jan Gugenheimer
@@ -69,6 +89,8 @@
   image: /assets/papers/wombacher2025switchar.jpg
   video: https://dl.acm.org/doi/suppl/10.1145/3746059.3747595/suppl_file/SwitchAR%20UIST%202025%20Video%20Figure.mp4
   featured: true
+  scholar_url: https://dl.acm.org/doi/abs/10.1145/3746059.3747595
+  citations: 3
 - key: hagan2024viewpoint
   title: A Viewpoint on the Societal Impact of Everyday Augmented Reality, and the Need for Perceptual Human Rights
   authors: Joseph O'Hagan, Jan Gugenheimer, Florian Mathis, Jolie Bonner, Richard Jones, Mark McGill
