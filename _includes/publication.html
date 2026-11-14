@@ -1,10 +1,10 @@
 {% assign p = include.pub %}{% unless p.hidden %}
-<article class="pub" id="{{ p.key }}" data-venue="{{ p.venue | escape }}" data-year="{{ p.year }}" data-title="{{ p.title | escape }}"{% if p.award %} data-award="{{ p.award | escape }}"{% endif %}>
+<article class="pub" id="{{ p.key }}" data-type="{{ p.type | default: "paper" }}" data-venue="{{ p.venue | escape }}" data-year="{{ p.year }}" data-title="{{ p.title | escape }}"{% if p.award %} data-award="{{ p.award | escape }}"{% endif %}>
   <div class="pub-thumb">
     {% if p.image %}<img src="{{ p.image | relative_url }}" alt="" loading="lazy">{% else %}<span class="paper" aria-hidden="true"><span class="paper-venue">{{ p.venue }}</span><span class="paper-title">{{ p.title }}</span><span class="paper-authors">{{ p.authors }}</span><span class="paper-abstract"></span><span class="paper-cols"><span></span><span></span></span></span>{% endif %}
   </div>
   <div class="pub-text">
-    <p class="pub-meta"><span class="venue">{{ p.venue }}</span>{% if p.award %}<span class="award"><svg class="icon" aria-hidden="true"><use href="#i-award"/></svg>{{ p.award }}</span>{% endif %}</p>
+    <p class="pub-meta"><span class="venue">{{ p.venue }}</span>{% if p.type == "poster" %}<span class="kind">Poster</span>{% elsif p.type == "demo" %}<span class="kind">Demo</span>{% elsif p.type == "workshop" %}<span class="kind">Workshop</span>{% endif %}{% if p.award %}<span class="award"><svg class="icon" aria-hidden="true"><use href="#i-award"/></svg>{{ p.award }}</span>{% endif %}</p>
     <h3 class="pub-title">{{ p.title }}</h3>
     <p class="pub-authors">{{ p.authors | replace: "Jan Gugenheimer", "<strong>Jan Gugenheimer</strong>" }}</p>
     <p class="pub-links">

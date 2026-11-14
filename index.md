@@ -52,5 +52,5 @@ We build hardware and software for interaction, feedback and collaboration in AR
 </div>
 </div>
 
-{% assign hidden = site.data.publications | where: "hidden", true %}
-<p class="more"><a class="btn" href="/publications/">All {{ site.data.publications | size | minus: hidden.size }} publications<svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a></p>
+{% assign papers = site.data.publications | where: "type", "paper" %}
+<p class="more"><a class="btn" href="/publications/">All {{ papers.size }} publications<svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a></p>

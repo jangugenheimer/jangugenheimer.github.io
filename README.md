@@ -61,6 +61,8 @@ python scripts/images_from_local_pdfs.py ~/papers/*.pdf        # teaser images f
 
 **Venue filter:** `assets/js/publications.js` builds the venue buttons and the dot timeline on the Publications page from the list itself; every venue gets a button.
 
+**Types:** every entry in `_data/publications.yml` has `type:` `paper`, `poster`, `demo`, `workshop` or `other` (new entries default to `paper`). The tabs above the venue buttons filter by it; "CHI EA", "UIST Adjunct" and similar count as their conference in the venue filter.
+
 **Papers without an image** show a small generated first page (title, authors and ruled lines), drawn by the stylesheet. Add `image:` to replace it.
 
 **Hiding an entry:** add `hidden: true` to a paper in `_data/publications.yml`. It stays in the file, so the monthly update does not add it again, but it is not shown.

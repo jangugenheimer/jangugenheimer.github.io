@@ -142,6 +142,8 @@ h3 { font-size: 1.05rem; font-weight: 700; letter-spacing: -.005em; line-height:
   margin-top: 1.6cqw; }
 .pub-meta { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 10px; margin: 0 0 .35rem; }
 .venue { color: var(--accent); font-size: .76rem; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; }
+.kind { padding: 3px 9px; border-radius: 999px; box-shadow: inset 0 0 0 1px var(--line); color: var(--muted);
+  font-size: .74rem; font-weight: 700; line-height: 1.4; }
 .award { display: inline-flex; align-items: center; gap: 5px; padding: 3px 9px; border-radius: 999px;
   background: var(--accent-soft); color: var(--accent); font-size: .74rem; font-weight: 700; line-height: 1.4; }
 .pub-title { margin: 0 0 .3rem; }
@@ -156,6 +158,13 @@ h3 { font-size: 1.05rem; font-weight: 700; letter-spacing: -.005em; line-height:
 /* Publications page: venue filter and timeline */
 .pubviz { position: relative; margin: 1.75rem 0 0; padding: 20px; background: var(--surface);
   border-radius: var(--radius); }
+.types { display: flex; flex-wrap: wrap; gap: 4px 22px; margin-bottom: 16px; border-bottom: 1px solid var(--line); }
+.tab { display: inline-flex; align-items: baseline; gap: 7px; padding: 2px 0 10px; margin-bottom: -1px; border: 0;
+  border-bottom: 2px solid transparent; background: none; color: var(--muted); font: 700 .98rem var(--font);
+  cursor: pointer; transition: color .15s, border-color .15s; }
+.tab span { font-size: .78rem; font-weight: 400; font-variant-numeric: tabular-nums; }
+.tab:hover { color: var(--text); }
+.tab[aria-pressed="true"] { color: var(--accent); border-bottom-color: var(--accent); }
 .venues { display: flex; flex-wrap: wrap; gap: 6px; }
 .chip { display: inline-flex; align-items: center; gap: 7px; padding: 5px 12px; border: 1px solid var(--line);
   border-radius: 999px; background: var(--bg); color: var(--text); font: 600 .82rem var(--font); cursor: pointer;

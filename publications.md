@@ -5,11 +5,12 @@ title: Publications
 
 # Publications
 
-{% assign hidden = site.data.publications | where: "hidden", true %}
+{% assign papers = site.data.publications | where: "type", "paper" %}
 {% assign by_year = site.data.publications | group_by: "year" | sort: "name" | reverse %}
-<p class="lead">{{ site.data.publications | size | minus: hidden.size }} peer-reviewed papers, newest first. The full list is on <a href="{{ site.links.scholar }}" target="_blank" rel="noopener">Google Scholar</a>.</p>
+<p class="lead">{{ papers.size }} peer-reviewed papers and {{ site.data.publications | size | minus: papers.size }} posters, demos, workshops and other contributions, newest first. The full list is on <a href="{{ site.links.scholar }}" target="_blank" rel="noopener">Google Scholar</a>.</p>
 
 <div class="pubviz" id="pubviz" hidden>
+<div class="types" role="group" aria-label="Filter by type"></div>
 <div class="venues" role="group" aria-label="Filter by venue"></div>
 <div class="timeline" aria-label="Papers per year"></div>
 <p class="viz-status" aria-live="polite"></p>

@@ -28,7 +28,7 @@ HEADERS = {
 }
 
 # Field order in the YAML file (purely cosmetic).
-FIELDS = ["key", "title", "authors", "venue", "year", "award", "doi", "pdf",
+FIELDS = ["key", "title", "authors", "venue", "year", "type", "award", "doi", "pdf",
           "image", "video", "video_embed", "project", "featured", "scholar_url", "citations"]
 
 
@@ -43,6 +43,7 @@ def save(pubs: list[dict]) -> None:
     pubs = sorted(pubs, key=lambda p: (-int(p.get("year") or 0), p.get("title", "")))
     ordered = []
     for p in pubs:
+        p.setdefault("type", "paper")  # paper, poster, demo, workshop or other
         q = {k: p[k] for k in FIELDS if p.get(k) not in (None, "", [])}
         q.update({k: v for k, v in p.items() if k not in FIELDS and v not in (None, "")})
         ordered.append(q)
