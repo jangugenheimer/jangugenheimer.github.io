@@ -57,4 +57,12 @@ python scripts/images_from_local_pdfs.py ~/papers/*.pdf        # teaser images f
 
 **Videos:** a paper with a video on the ACM Digital Library gets a "Video" link that opens its ACM page in a new tab. Images are plain images.
 
+**Home page examples:** the papers listed under each research topic are chosen by key in `index.md` (the two `assign keys = "..."` lines).
+
+**Venue filter:** `assets/js/publications.js` builds the venue buttons and the dot timeline on the Publications page from the list itself; every venue gets a button.
+
+**Papers without an image** show a small generated first page (title, authors and ruled lines), drawn by the stylesheet. Add `image:` to replace it.
+
+**Hiding an entry:** add `hidden: true` to a paper in `_data/publications.yml`. It stays in the file, so the monthly update does not add it again, but it is not shown.
+
 **Automatic updates:** `.github/workflows/update-publications.yml` runs both scripts once a month (and on demand via *Actions → Update publications → Run workflow*) and commits new entries. The ACM video step needs `--browser` on your own computer, because ACM blocks plain requests. Google Scholar sometimes blocks GitHub's servers. Then nothing changes, and you can run the scripts on your own computer.

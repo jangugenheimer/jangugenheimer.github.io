@@ -5,16 +5,33 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{% if page.title and page.title != "Home" %}{{ page.title }} · {% endif %}{{ site.title }}</title>
   <meta name="description" content="{{ site.description }}">
+  <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+  <script>
+    // Always use the encrypted address on the live site.
+    if (location.protocol === "http:" && /(^|\.)gugenheimer\.com$/.test(location.hostname)) {
+      location.replace("https://" + location.host + location.pathname + location.search + location.hash);
+    }
+  </script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;0,800;1,400&display=swap">
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
 <body>
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <defs>
+      <symbol id="i-cap" viewBox="0 0 24 24"><path d="M22 10 12 5 2 10l10 5 10-5z"/><path d="M6 12v5c3 2 9 2 12 0v-5"/></symbol>
+      <symbol id="i-doc" viewBox="0 0 24 24"><path d="M14 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"/><path d="M14 3v6h6"/></symbol>
+      <symbol id="i-play" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="m10 8 6 4-6 4z"/></symbol>
+      <symbol id="i-ext" viewBox="0 0 24 24"><path d="M7 17 17 7"/><path d="M8 7h9v9"/></symbol>
+      <symbol id="i-award" viewBox="0 0 24 24"><circle cx="12" cy="9" r="6"/><path d="m8.5 14-1.5 7 5-3 5 3-1.5-7"/></symbol>
+      <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></symbol>
+    </defs>
+  </svg>
   <header class="site-header">
     <div class="wrap">
-      <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}<span>Human-Computer Interaction · TU Darmstadt</span></a>
-      <nav>
+      <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+      <nav class="site-nav" aria-label="Main">
         {% for item in site.nav %}<a href="{{ item.url | relative_url }}"{% if page.url == item.url %} class="active" aria-current="page"{% endif %}>{{ item.title }}</a>{% endfor %}
       </nav>
     </div>
@@ -23,18 +40,10 @@
     {{ content }}
   </main>
   <footer class="site-footer">
-    <div class="wrap">© {{ site.time | date: "%Y" }} Jan Gugenheimer · Human-Computer Interaction Group, TU Darmstadt</div>
+    <div class="wrap">
+      <span>© {{ site.time | date: "%Y" }} Jan Gugenheimer</span>
+      <span>Human-Computer Interaction Group, TU Darmstadt</span>
+    </div>
   </footer>
-  <script>
-    // Email addresses are stored reversed and ROT13-encoded; decode them only in the browser.
-    document.querySelectorAll(".js-email").forEach(function (a) {
-      var addr = a.dataset.code.replace(/[a-z]/gi, function (c) {
-        var base = c <= "Z" ? 65 : 97;
-        return String.fromCharCode((c.charCodeAt(0) - base + 13) % 26 + base);
-      }).split("").reverse().join("");
-      a.href = "mailto:" + addr;
-      a.textContent = addr;
-    });
-  </script>
 </body>
 </html>

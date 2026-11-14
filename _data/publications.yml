@@ -6,6 +6,7 @@
   venue: PACM HCI 2026
   year: 2026
   doi: 10.1145/3799441
+  image: /assets/papers/gerritse2026classifying.jpg
   scholar_url: https://dl.acm.org/doi/abs/10.1145/3799441
   citations: 1
 - key: mei2026embodied
@@ -42,6 +43,7 @@
   venue: CHI 2026
   year: 2026
   scholar_url: https://research-portal.uu.nl/ws/files/290194682/3772363.3778727.pdf
+  hidden: true
 - key: krau2025create
   title: '"Create a Fear of Missing Out" - ChatGPT Implements Unsolicited Deceptive Designs in Generated Websites Without Warning'
   authors: Veronika Krauß, Mark McGill, Thomas Kosch, Yolanda Maira Thiel, Dominik Schön, Jan Gugenheimer
